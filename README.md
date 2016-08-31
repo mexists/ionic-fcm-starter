@@ -124,7 +124,7 @@ A popup modal will be shown. Insert your package name into the popup form.
 
 ![alt tag](https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/screenshot/image3.PNG)
 
-Leave SHA-1 blank because the field is optional. Click `ADD APP` button.
+Leave SHA-1 blank because this field is optional. Click `ADD APP` button.
 
 ![alt tag](https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/screenshot/image4.PNG)
 
