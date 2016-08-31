@@ -282,5 +282,5 @@ And run our app in your physical device.
 C:\ionic2-fcm-starter> ionic run android
 ```
 
-#### Congrats! now you can build your own chat messaging...!
+#### Congrats! now you can build your own chat messaging app...!
 
