@@ -112,21 +112,21 @@ To create Firebase Cloud Messaging project, you need to have a Firebase account.
 
 From the console dashboard, click `CREATE NEW PROJECT` button.
 
-[image1]
+https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/screenshot/image1.PNG
 
 Insert your project name as you desired and choose your country/reqion. Then click `CREATE PROJECT` button.
 
-[image2]
+https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/screenshot/image2.PNG
 
 In this tutorial, we will building app for android. So, choose `Add Firebase to your Android app`.
 
 A popup modal will be shown. Insert your package name into the popup form.
 
-[image3]
+https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/screenshot/image3.PNG
 
 Leave SHA-1 blank because the field is optional. Click `ADD APP` button.
 
-[image4]
+https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/screenshot/image4.PNG
 
 A file named `google-services.json` is downloaded. Copy this file to your `project root directory` and to `platform/android` directory.
 
@@ -138,9 +138,9 @@ FCM project is successfully created. Whenever you have changed the project setti
 
 The FCM server key is requied for your apps to communicate between the app and server to send push notification. This key is available at your Firebase console project recently that you have created. To get this key, Navigate to `Project Setting -> Manage -> Cloud Messaging`
 
-[image5]
+https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/screenshot/image5.PNG
 
-[image6]
+https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/screenshot/image6.PNG
 
 Copy the server key.
 
