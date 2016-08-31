@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "147316411169",
+    "firebase_url": "https://ionic-2-fcm-starter.firebaseio.com",
+    "project_id": "ionic-2-fcm-starter",
+    "storage_bucket": "ionic-2-fcm-starter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147316411169:android:66c6b1bdeb61ea4e",
+        "android_client_info": {
+          "package_name": "tech.cryptical.ionic2fcmstarter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147316411169-d7hmnop8n3qru297jfhm7pjukunnkddi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcI_Ym3zdpPQ0jBYmu5hsafkWSz1YlzwY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
