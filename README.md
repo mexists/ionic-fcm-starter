@@ -1,4 +1,4 @@
-![alt tag](https://raw.githubusercontent.com/mexists/ionic-2-material-design-starter/master/www/img/ionic-md-logo.png)
+![alt tag](https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/ionic-md-logo.png)
 # Ionic 2 Firebase Cloud Messaging Starter
 A simple cloud messaging using Ionic 2 and Firebase Cloud Messaging (FCM).
 ### This project is builded with:
