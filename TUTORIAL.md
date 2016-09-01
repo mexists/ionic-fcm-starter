@@ -60,7 +60,7 @@ C:\ionic2-fcm-starter> ionic platform add android
 
 * Add/Modify code
 
-After your plugin is installed, we need to add and modify some code in the project. From your project root directory, navigate to `www\index.html` and edit `index.html` file with the folloing code.
+After your plugin is installed, we need to add and modify some code in the project. From your project root directory, navigate to `www\index.html` and edit `index.html` file with the following code.
 ```sh
 <!-- jQuery -->
 <script src="lib/jquery/dist/jquery.min.js"></script>
@@ -97,7 +97,7 @@ From the console dashboard, click `CREATE NEW PROJECT` button.
 
 ![alt tag](https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/screenshot/image1.PNG)
 
-Insert your project name as you desired and choose your country/reqion. Then click `CREATE PROJECT` button.
+Insert your project name as you desired and choose your country/region. Then click `CREATE PROJECT` button.
 
 ![alt tag](https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/screenshot/image2.PNG)
 
