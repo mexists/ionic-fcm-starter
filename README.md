@@ -1,6 +1,6 @@
-![alt tag](https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/ionic-md-logo.png)
+![alt tag](https://raw.githubusercontent.com/mexists/ionic-fcm-starter/master/www/img/ionic-md-logo.png)
 # Ionic Firebase Cloud Messaging Starter
-A simple cloud messaging using Ionic 2 and Firebase Cloud Messaging (FCM).
+A simple cloud messaging using Ionic and Firebase Cloud Messaging (FCM).
 ### This project is builded with:
 * Ionic version 1
 * NPM version 3.10.6
@@ -22,10 +22,10 @@ npm rebuild node-sass
 ```
 * Building & Runnning project
 ```sh
-C:\> cd ionic1-fcm-starter
-C:\ionic1-fcm-starter> ionic platform add android
-C:\ionic1-fcm-starter> ionic build android
-C:\ionic1-fcm-starter> ionic run android
+C:\> cd ionic-fcm-starter
+C:\ionic-fcm-starter> ionic platform add android
+C:\ionic-fcm-starter> ionic build android
+C:\ionic-fcm-starter> ionic run android
 ```
 
-### [TUTORIAL.md](https://github.com/mexists/ionic2-fcm-starter/blob/master/TUTORIAL.md)
+### [TUTORIAL.md](https://github.com/mexists/ionic-fcm-starter/blob/master/TUTORIAL.md)
