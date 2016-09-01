@@ -28,4 +28,4 @@ C:\ionic2-fcm-starter> ionic build android
 C:\ionic2-fcm-starter> ionic run android
 ```
 
-[TUTORIAL.md](https://github.com/mexists/ionic2-fcm-starter/blob/master/TUTORIAL.md)
+# [TUTORIAL.md](https://github.com/mexists/ionic2-fcm-starter/blob/master/TUTORIAL.md)
