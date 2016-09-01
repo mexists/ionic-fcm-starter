@@ -190,8 +190,8 @@ Firstly, we add some text field to `www\templates\chat-detail.html`.
     <p class="pull-right">{{reply}}</p>
 
     <div class="bar bar-footer">
-      <input ng-model="formData.message" class="button-block" placeholder="Reply...">
-      <button type="submit" ng-click="send()" class="button button-clear">Send</button>
+      <input ng-model="formData.message" class="block" placeholder="Reply..." style="width:100%">
+      <button type="submit" ng-click="send()" class="button button-small pull-right">Send</button>
     </div>
     
   </ion-content>
@@ -235,6 +235,7 @@ Then navigate to `www\js\controller.js` and edit `controller.js` file. On `ChatD
           }
         )
     }).success(function(data){
+      $scope.reply = $scope.formData.message;
       alert("Success: " + JSON.stringify(data));
     }).error(function(data){
       alert("Error: " + JSON.stringify(data));
