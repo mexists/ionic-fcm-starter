@@ -53,7 +53,7 @@ C:\ionic2-fcm-starter> bower install ngCordova
 ```
 * Add platform (Android)
 
-Next we need to add Adnroid platform to our project. To add platform, type the following command.
+Next we need to add Android platform to our project. To add platform, type the following command.
 ```sh
 C:\ionic2-fcm-starter> ionic platform add android
 ```
