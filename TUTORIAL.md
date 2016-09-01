@@ -1,8 +1,7 @@
-![alt tag](https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/ionic-md-logo.png)
-# Ionic 2 Firebase Cloud Messaging Starter
-A simple cloud messaging using Ionic 2 and Firebase Cloud Messaging (FCM).
+# Ionic Firebase Cloud Messaging Starter
+A simple cloud messaging using Ionic and Firebase Cloud Messaging (FCM).
 ### This project is builded with:
-* Ionic version 2
+* Ionic version 1
 * NPM version 3.10.6
 * NodeJS version 6.5.0
 * Bower version 1.7.9
@@ -21,14 +20,14 @@ A simple cloud messaging using Ionic 2 and Firebase Cloud Messaging (FCM).
 
 Creating project using ionic tabs starter.
 ```sh
-C:\> ionic start ionic2-fcm-starter tabs
+C:\> ionic start ionic-fcm-starter tabs
 ```
 If you which to use blank template, replace `tabs` with `blank`.
 
 * After your project finished downloading template, navigate to the project root directory.
 ```sh
-C:\> cd ionic2-fcm-starter
-C:\ionic2-fcm-starter>
+C:\> cd ionic-fcm-starter
+C:\ionic-fcm-starter>
 ```
 
 ### Installing Plugin & Project Configuration
@@ -37,25 +36,25 @@ C:\ionic2-fcm-starter>
 
 To install cordova FCM plugin. Type the following command.
 ```sh
-C:\ionic2-fcm-starter> ionic plugin add cordova-plugin-fcm
+C:\ionic-fcm-starter> ionic plugin add cordova-plugin-fcm
 ```
 * Installing JQuery
 
 Installing Jquery using Bower.
 ```sh
-C:\ionic2-fcm-starter> bower install jquery
+C:\ionic-fcm-starter> bower install jquery
 ```
 * Installing [ngCordova](http://ngcordova.com/docs/install)
 
 Installing [ngCordova](http://ngcordova.com/docs/install) using Bower.
 ```sh
-C:\ionic2-fcm-starter> bower install ngCordova
+C:\ionic-fcm-starter> bower install ngCordova
 ```
 * Add platform (Android)
 
 Next we need to add Android platform to our project. To add platform, type the following command.
 ```sh
-C:\ionic2-fcm-starter> ionic platform add android
+C:\ionic-fcm-starter> ionic platform add android
 ```
 
 * Add/Modify code
@@ -79,11 +78,11 @@ After your plugin is installed, we need to add and modify some code in the proje
 Now, from your project root directory, modify `config.xml` file.
 You can see at line 2, by default the code given is like this:
 ```sh
-<widget id="com.ionicframework.ionic2fcmstarter954702" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.ionicframework.ionicfcmstarter954702" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 ```
-Modify the `id` property to your application package namespace. In this tutorial, we will use `tech.cryptical.ionic2fcmstarter`.
+Modify the `id` property to your application package namespace. In this tutorial, we will use `tech.cryptical.ionicfcmstarter`.
 ```sh
-<widget id="tech.cryptical.ionic2fcmstarter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="tech.cryptical.ionicfcmstarter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 ```
 
 Save all your files.
@@ -95,21 +94,21 @@ To create Firebase Cloud Messaging project, you need to have a Firebase account.
 
 From the console dashboard, click `CREATE NEW PROJECT` button.
 
-![alt tag](https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/screenshot/image1.PNG)
+![alt tag](https://raw.githubusercontent.com/mexists/ionic-fcm-starter/master/www/img/screenshot/image1.PNG)
 
 Insert your project name as you desired and choose your country/region. Then click `CREATE PROJECT` button.
 
-![alt tag](https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/screenshot/image2.PNG)
+![alt tag](https://raw.githubusercontent.com/mexists/ionic-fcm-starter/master/www/img/screenshot/image2.PNG)
 
 In this tutorial, we will building app for android. So, choose `Add Firebase to your Android app`.
 
 A popup modal will be shown. Insert your package name into the popup form.
 
-![alt tag](https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/screenshot/image3.PNG)
+![alt tag](https://raw.githubusercontent.com/mexists/ionic-fcm-starter/master/www/img/screenshot/image3.PNG)
 
 Leave SHA-1 blank because this field is optional. Click `ADD APP` button.
 
-![alt tag](https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/screenshot/image4.PNG)
+![alt tag](https://raw.githubusercontent.com/mexists/ionic-fcm-starter/master/www/img/screenshot/image4.PNG)
 
 A file named `google-services.json` is downloaded. Copy this file to your `project root directory` and to `platform/android` directory.
 
@@ -121,9 +120,9 @@ FCM project is successfully created. Whenever you have changed the project setti
 
 The FCM server key is requied for your apps to communicate between the app and server to send push notification. This key is available at your Firebase console project recently that you have created. To get this key, Navigate to `Project Setting -> Manage -> Cloud Messaging`
 
-![alt tag](https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/screenshot/image5.PNG)
+![alt tag](https://raw.githubusercontent.com/mexists/ionic-fcm-starter/master/www/img/screenshot/image5.PNG)
 
-![alt tag](https://raw.githubusercontent.com/mexists/ionic2-fcm-starter/master/www/img/screenshot/image6.PNG)
+![alt tag](https://raw.githubusercontent.com/mexists/ionic-fcm-starter/master/www/img/screenshot/image6.PNG)
 
 Copy the server key.
 
@@ -219,7 +218,7 @@ Then navigate to `www\js\controller.js` and edit `controller.js` file. On `ChatD
       data: JSON.stringify(
           {
             "notification":{
-              "title":"Ionic 2 FCM Starter",  //Any value
+              "title":"Ionic FCM Starter",  //Any value
               "body": $scope.formData.message,  //Any value
               "sound": "default", //If you want notification sound
               "click_action": "FCM_PLUGIN_ACTIVITY",  //Must be present for Android
@@ -259,11 +258,11 @@ That's it...! now get ready to compile and test your app.
 ### Building & Running Project
 On the command prompt, type the following command to build your app.
 ```sh
-C:\ionic2-fcm-starter> ionic build android
+C:\ionic-fcm-starter> ionic build android
 ```
 And run our app in your physical device.
 ```sh
-C:\ionic2-fcm-starter> ionic run android
+C:\ionic-fcm-starter> ionic run android
 ```
 
 #### Congrats! now you can build your own chat messaging app...!
