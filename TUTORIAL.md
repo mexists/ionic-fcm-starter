@@ -10,6 +10,7 @@ A simple cloud messaging using Ionic 2 and Firebase Cloud Messaging (FCM).
 
 # Tutorial
 > This section provides step-by-step on developing this project.
+
 ### Prerequisites
 * NPM version 3.* and above
 * NodeJS version 6.* and above
