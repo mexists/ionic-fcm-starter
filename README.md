@@ -34,6 +34,7 @@ C:\ionic2-fcm-starter> ionic run android
 * NPM version 3.* and above
 * NodeJS version 6.* and above
 * [Google Firebase Account](https://console.firebase.google.com)
+
 ### Getting Started
 - Creating your first project.
 
