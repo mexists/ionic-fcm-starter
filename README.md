@@ -14,7 +14,7 @@ $ cd ionic1-fcm-starter
 $ npm install
 ```
 ### Building & Running
-**This project uses [Cordova FCMPlugin](https://www.npmjs.com/package/cordova-plugin-fcm) where it requires to run on a physical device.**
+**This project uses [Cordova FCMPlugin](https://www.npmjs.com/package/cordova-plugin-fcm) where it requires to run on a _physical device_.**
 
 If you have upgrading your `NPM` or `NodeJS`. Please run the following command:
 ```sh
