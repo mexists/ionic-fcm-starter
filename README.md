@@ -1,4 +1,5 @@
 ![alt tag](https://raw.githubusercontent.com/mexists/ionic-fcm-starter/master/www/img/ionic-md-logo.png)
+### This repo is no longer maintained!
 # Ionic Firebase Cloud Messaging Starter
 A simple cloud messaging using Ionic and Firebase Cloud Messaging (FCM).
 ### This project is builded with:
